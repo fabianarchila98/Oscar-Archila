@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 import h5py
 from sklearn.metrics import f1_score
 
-filename = "../../../media/user_home2/vision2020_01/Data/Los_cinefilos/multimodal_imdb.hdf5"
+filename = "/media/user_home2/vision2020_01/Data/Los_cinefilos/multimodal_imdb.hdf5"
 
 with h5py.File(filename, "r") as f:
     # List all groups
